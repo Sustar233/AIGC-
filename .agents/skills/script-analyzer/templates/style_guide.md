@@ -1,17 +1,14 @@
-# 通用生图风格指南
+# 项目视觉规则模板
 
-所有生成的提示词必须包含以下质量标签前缀和后缀：
+视觉规则优先级：用户本次明确要求 > `project.json` > 已确认项目数据库 > 当前剧本明确描述。
 
-## 基础质感
-masterpiece, best quality, 8k, highly detailed, cinematic lighting, unreal engine 5 render style.
+需要确认并记录：
 
-## 动漫风格
-anime style, cel shading, vibrant colors, Makoto Shinkai style.
+- 默认画面风格与渲染媒介。
+- 时代、地域、服装类别和材质边界。
+- 色彩、光影、画幅和分辨率。
+- 角色是否需要纯白背景标准人设图。
+- 能力、武器、生物和道具的视觉表现边界。
+- 明确禁止的视觉元素。
 
-## 负面提示词
-low quality, worst quality, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, jpeg artifacts, signature, watermark, username, blurry.
-
-## 世界观视觉约束
-- **本剧不包含等级勋章/肩章等直接等级标识**，生成人设图提示词时不要添加"X级勋章""X级肩章"等描述。角色等级是背景设定，不应视觉化。
-- **服装以现代日常装为主**，与当代普通服饰区别不大，不要刻意做废土朋克、破洞、做旧、战损等处理。部分角色（如军队人员）可穿制式作战服/制服，但款式以简洁实用为主。
-- 风格关键词保持现代感，避免 over-design
+禁止从旧项目、示例或类型片惯例中自动继承规则。默认不单列 negative prompt。

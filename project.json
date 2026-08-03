@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "project_name": "未命名AI视频项目",
+  "initialized": false,
+  "project_type": "AI叙事视频",
+  "default_visual_style": "",
+  "preferred_models": {
+    "image": [],
+    "video": []
+  },
+  "paths": {
+    "scripts": "项目资料/剧本",
+    "database": "项目资料/database",
+    "character_prompts": "项目资料/outputs/人设/人设提示词.md",
+    "storyboards": "项目资料/outputs/分镜",
+    "storyboard_cache": "memory/storyboard-cache"
+  },
+  "features": {
+    "character_design": true,
+    "storyboard": true,
+    "combat_design": true,
+    "creature_assets": true
+  },
+  "workflow": {
+    "max_storyboard_units_per_batch": 4,
+    "default_storyboard_mode": "标准版",
+    "character_prompt_versions": 3
+  }
+}
