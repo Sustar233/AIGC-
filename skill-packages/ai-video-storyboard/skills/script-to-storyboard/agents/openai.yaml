@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧本转 AI 视频分镜"
+  short_description: "把剧本拆成可直接生成、可续写、可迭代的 AI 视频分镜脚本"
+  default_prompt: "使用 $script-to-storyboard，根据我上传的剧本生成下一批 AI 视频分镜脚本。"

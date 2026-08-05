@@ -1,0 +1,32 @@
+{
+  "name": "ai-video-storyboard",
+  "version": "1.0.0",
+  "description": "将剧本转换为可直接用于 Seedance 或同类模型的 AI 视频分镜脚本。",
+  "author": {
+    "name": "浮白文化"
+  },
+  "keywords": [
+    "storyboard",
+    "ai-video",
+    "seedance",
+    "short-drama",
+    "animation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI 视频分镜导演",
+    "shortDescription": "把剧本转成可生成、可续写、可迭代的 AI 视频分镜",
+    "longDescription": "根据上传剧本锁定人物、台词、场景与连续性，按短时长单元生成普通对白、情绪表演、多人调度、战斗动作链和剪辑 B 版分镜。",
+    "developerName": "浮白文化",
+    "category": "Creative Production",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "根据我上传的剧本生成下一批 AI 视频分镜脚本。",
+      "把这段多人对白拆成可直接用于 Seedance 的标准版分镜。",
+      "为这段打戏生成 15 秒内、动作连续的精细版战斗分镜。"
+    ]
+  }
+}
