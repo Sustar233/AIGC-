@@ -24,7 +24,35 @@
   },
   "workflow": {
     "max_storyboard_units_per_batch": 4,
-    "default_storyboard_mode": "标准版",
+    "default_storyboard_mode": "紧凑成片版",
+    "storyboard_generation": {
+      "context_mode": "incremental",
+      "default_detail": "紧凑成片版",
+      "max_unit_seconds": 15,
+      "default_shots_per_unit": [
+        4,
+        6
+      ],
+      "output_modes": [
+        "文字版",
+        "带图版"
+      ],
+      "default_output_mode": "文字版",
+      "reference_loading": "on_demand",
+      "max_task_specific_requirements": 4,
+      "update_database_each_unit": false,
+      "preview": {
+        "images_per_unit": 1,
+        "reuse_current_context": true,
+        "selection_priority": [
+          "关键剧情动作",
+          "核心人物关系",
+          "主要景别",
+          "最典型构图"
+        ],
+        "output_path": "项目资料/outputs/分镜/previews"
+      }
+    },
     "character_prompt_versions": 2,
     "visual_prompt_output": {
       "versions": [

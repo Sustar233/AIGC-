@@ -3,15 +3,12 @@
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
 
 
-FIXED_STYLE = (
-    "3D写实动漫风格，电影级三维动画质感，次世代CG渲染，高精角色模型，"
-    "富有层次感的体积光影，电影级景深虚化，无明显2D勾线，虚幻引擎5渲染风格"
-)
 UNIT_RE = re.compile(r"(?m)^\[第\d+集-第\d+单元(?:·[^\] /]+)?\s*/[^\]]+\]\s*$")
 REQUIRED_FIELDS = (
     "分镜类型：",
@@ -33,8 +30,30 @@ def split_units(text: str) -> list[tuple[str, str]]:
     return units
 
 
-def validate_unit(title: str, body: str) -> list[str]:
+def load_project_style(storyboard_path: Path) -> str:
+    """Load the active visual style instead of assuming a fixed 3D template."""
+    candidates = [Path.cwd() / "project.json"]
+    candidates.extend(parent / "project.json" for parent in storyboard_path.resolve().parents)
+
+    seen: set[Path] = set()
+    for candidate in candidates:
+        resolved = candidate.resolve()
+        if resolved in seen or not resolved.is_file():
+            continue
+        seen.add(resolved)
+        try:
+            project = json.loads(resolved.read_text(encoding="utf-8-sig"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        style = str(project.get("default_visual_style", "")).strip()
+        if style:
+            return style
+    return ""
+
+
+def validate_unit(title: str, body: str) -> tuple[list[str], list[str]]:
     errors: list[str] = []
+    warnings: list[str] = []
 
     for field in REQUIRED_FIELDS:
         if field not in body:
@@ -48,6 +67,25 @@ def validate_unit(title: str, body: str) -> list[str]:
         errors.append(f"{title} 无法识别单元时长")
     elif int(duration.group(1)) > 15:
         errors.append(f"{title} 单元时长超过 15 秒")
+
+    estimated = re.search(r"(?m)^预计时长：\s*(\d+)(?:\s*[-~—–至]\s*(\d+))?\s*秒", body)
+    if not estimated:
+        warnings.append(f"{title} 缺少可演时长范围；旧分镜可忽略，新分镜应填写预计时长")
+    else:
+        lower = int(estimated.group(1))
+        upper = int(estimated.group(2) or estimated.group(1))
+        if lower > upper:
+            errors.append(f"{title} 预计时长范围起止倒置")
+        if upper > 15:
+            errors.append(f"{title} 预计时长上限超过 15 秒")
+
+    output_mode = re.search(r"(?m)^输出模式：\s*(\S+)", body)
+    if not output_mode:
+        warnings.append(f"{title} 缺少输出模式；旧分镜可忽略，新分镜应写文字版或带图版")
+    elif output_mode.group(1) not in {"文字版", "带图版"}:
+        errors.append(f"{title} 输出模式只能是文字版或带图版")
+    elif output_mode.group(1) == "带图版" and not re.search(r"(?m)^预览图：\s*\S+", body):
+        warnings.append(f"{title} 标记为带图版，但尚未记录预览图结果")
 
     estimate = re.search(r"镜头时长估算：([^\n]+)", body)
     if not estimate:
@@ -70,7 +108,11 @@ def validate_unit(title: str, body: str) -> list[str]:
             if spans[-1][1] > 15:
                 errors.append(f"{title} 镜头时间轴超过 15 秒")
 
-    return errors
+    shot_count = len(re.findall(r"(?m)^镜号\s*\d+", body))
+    if shot_count > 7:
+        warnings.append(f"{title} 包含 {shot_count} 个镜头，请确认没有因复杂度过高而拆得过碎")
+
+    return errors, warnings
 
 
 def main() -> int:
@@ -94,15 +136,27 @@ def main() -> int:
     if "9:16" in text or "竖屏" in text:
         errors.append("发现竖屏或 9:16 表述，项目必须使用 16:9 横屏")
 
-    style_count = text.count(FIXED_STYLE)
-    if units and style_count < len(units):
-        errors.append(f"固定画面风格出现 {style_count} 次，少于单元数 {len(units)}")
+    if re.search(r"(?i)l-cut", text):
+        errors.append("发现 L-cut 剪辑术语；请改为自然的画面与声音描述，避免模型误读")
+
+    if re.search(r"\d+(?:\.\d+)?\s*字/秒", text):
+        errors.append("发现字速数值；语速仅用于内部估时，不得写入视频生成提示")
+
+    project_style = load_project_style(path)
+    if project_style:
+        style_count = text.count(project_style)
+        if units and style_count < len(units):
+            errors.append(f"项目画面风格出现 {style_count} 次，少于单元数 {len(units)}")
+    else:
+        warnings.append("project.json 未提供 default_visual_style，无法校验画面风格")
 
     if len(units) > 4:
         warnings.append("文件包含超过 4 个单元；若这是多批结果汇总可忽略，否则请拆批输出")
 
     for title, body in units:
-        errors.extend(validate_unit(title, body))
+        unit_errors, unit_warnings = validate_unit(title, body)
+        errors.extend(unit_errors)
+        warnings.extend(unit_warnings)
 
     for warning in warnings:
         print(f"警告：{warning}")
