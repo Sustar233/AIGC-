@@ -11,3 +11,11 @@ venv/
 *.egg-info/
 dist/
 build/
+
+# Blender generated caches and backups
+*.blend1
+项目资料/outputs/白模/**/frames/
+项目资料/outputs/白模/**/视频帧/
+项目资料/outputs/白模/**/核验帧/
+项目资料/outputs/白模/**/contact_*.jpg
+项目资料/outputs/白模/**/motion_*.jpg

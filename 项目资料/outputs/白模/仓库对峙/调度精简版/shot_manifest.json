@@ -1,0 +1,110 @@
+{
+  "fps": 24,
+  "frames": 384,
+  "duration_seconds": 16,
+  "shots": [
+    {
+      "name": "C01",
+      "start": 1,
+      "end": 96,
+      "purpose": "辨认左右目标",
+      "lens_mm": 26,
+      "camera_move": "固定",
+      "camera": "C01_识敌全景",
+      "target": "C01_识敌全景_注视目标",
+      "review_frames": [
+        1,
+        7,
+        48,
+        96
+      ]
+    },
+    {
+      "name": "C02",
+      "start": 97,
+      "end": 168,
+      "purpose": "月织取刀并回应",
+      "lens_mm": 34,
+      "camera_move": "固定",
+      "camera": "C02_月织取刀",
+      "target": "C02_月织取刀_注视目标",
+      "review_frames": [
+        97,
+        103,
+        132,
+        168
+      ]
+    },
+    {
+      "name": "C03",
+      "start": 169,
+      "end": 216,
+      "purpose": "双手持刀作决定",
+      "lens_mm": 26,
+      "camera_move": "固定",
+      "camera": "C03_双手持刀",
+      "target": "C03_双手持刀_注视目标",
+      "review_frames": [
+        169,
+        175,
+        192,
+        216
+      ]
+    },
+    {
+      "name": "C04",
+      "start": 217,
+      "end": 312,
+      "purpose": "月织先冲、陈默随后分向",
+      "lens_mm": 22,
+      "camera_move": "后方前推",
+      "camera": "C04_先后分向冲锋",
+      "target": "C04_先后分向冲锋_注视目标",
+      "review_frames": [
+        217,
+        223,
+        228,
+        240,
+        264,
+        312
+      ]
+    },
+    {
+      "name": "C05",
+      "start": 313,
+      "end": 336,
+      "purpose": "扭柄后启动火淬",
+      "lens_mm": 43,
+      "camera_move": "同侧跟移",
+      "camera": "C05_扭柄启动",
+      "target": "C05_扭柄启动_注视目标",
+      "review_frames": [
+        313,
+        319,
+        324,
+        325,
+        332,
+        336
+      ]
+    },
+    {
+      "name": "C06",
+      "start": 337,
+      "end": 384,
+      "purpose": "进入刀长并向头部下劈",
+      "lens_mm": 26,
+      "camera_move": "固定",
+      "camera": "C06_头部下劈",
+      "target": "C06_头部下劈_注视目标",
+      "review_frames": [
+        337,
+        343,
+        351,
+        360,
+        365,
+        377,
+        384
+      ]
+    }
+  ]
+}
