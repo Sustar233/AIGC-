@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "project_name": "小狮子赛几第五季·方舟传",
+  "initialized": true,
+  "project_type": "AI叙事视频",
+  "default_visual_style": "清新儿童向二维手绘卡通：角色与场景采用圆润简化造型和低细节几何结构，略带手绘抖动感的深灰细描边，柔和明亮的粉彩低饱和配色，以浅米白、浅绿、浅蓝和浅暖色为主，大面积平涂结合轻微纸张颗粒、彩铅或水彩晕染质感，弱阴影、低对比、高明度，构图直观并保留适量留白，默认16:9横幅；夜景仅调整明度与冷暖关系，保持相同线稿和平面化规则；保持纯二维，不使用写实、3D、厚涂或厚重电影光影。",
+  "preferred_models": {
+    "image": [],
+    "video": []
+  },
+  "paths": {
+    "scripts": "项目资料/剧本",
+    "database": "项目资料/database",
+    "character_prompts": "项目资料/outputs/人设/人设提示词.md",
+    "storyboards": "项目资料/outputs/分镜",
+    "storyboard_cache": "memory/storyboard-cache",
+    "style_references": "项目资料/参考图/画风"
+  },
+  "features": {
+    "character_design": true,
+    "storyboard": true,
+    "combat_design": true,
+    "creature_assets": true
+  },
+  "workflow": {
+    "max_storyboard_units_per_batch": 4,
+    "default_storyboard_mode": "紧凑成片版",
+    "storyboard_generation": {
+      "context_mode": "incremental",
+      "default_detail": "紧凑成片版",
+      "max_unit_seconds": 15,
+      "default_shots_per_unit": [
+        4,
+        6
+      ],
+      "output_modes": [
+        "文字版",
+        "带图版"
+      ],
+      "default_output_mode": "文字版",
+      "reference_loading": "on_demand",
+      "max_task_specific_requirements": 4,
+      "update_database_each_unit": false,
+      "preview": {
+        "images_per_unit": 1,
+        "reuse_current_context": true,
+        "selection_priority": [
+          "关键剧情动作",
+          "核心人物关系",
+          "主要景别",
+          "最典型构图"
+        ],
+        "output_path": "项目资料/outputs/分镜/previews"
+      }
+    },
+    "character_prompt_versions": 2,
+    "visual_prompt_output": {
+      "versions": [
+        "精简版",
+        "扩展版"
+      ],
+      "compact_rule": "只包含项目固定画风、必要制图规范，以及用户资料或剧本直接要求的主体、场景物品和动作，不做审美补全。",
+      "expanded_rule": "在不改变项目事实、固定识别锚点和剧情边界的前提下，可按生成需要补充构图、空间层次、材质、光影、氛围和可复用细节。",
+      "scene_style_suffix": "统一场景画风：清新温暖、画面干净清晰的二维儿童绘本式动画场景，带有轻喜剧网络短动画的日常背景气质，适用于萌系拟人动物叙事动画。场景采用简洁、圆润、低细节的几何化造型，结构明确易读，透视适度简化但保持正确，前后层次与人物活动区域清楚，不追求写实建筑比例、复杂纵深或高密度细节。建筑、门窗、家具及场景内既有物件均采用圆角和儿童动画式简化处理。仅使用干净、连续、稳定的深灰色细线勾勒主要轮廓，线条粗细统一、边缘平滑利落，减少内部线条与碎小描边；不使用草稿线、重复线、断裂线、毛刺线、抖动线、排线、铅笔涂抹或粗重黑边，避免画面呈现线稿半成品感。整体采用低饱和粉彩色系与清晰淡彩平涂，以浅米白、奶油黄、浅绿色、粉蓝色、淡灰蓝、浅粉色、自然木色和浅棕色为主，保持高明度、低对比、柔和均匀的视觉氛围。色块边界清楚完整，铺色均匀，画面表面洁净；不使用纸张颗粒、彩铅摩擦、水彩晕染、噪点、脏灰蒙层、斑驳色块、颗粒笔刷或模糊滤镜。光影保持轻柔克制，只使用边缘清晰且面积简洁的极淡明暗变化和接触阴影，不使用强烈明暗、复杂反射、体积光、厚重电影打光或高反差氛围光。夜景仅调整整体明度和冷暖关系，继续保持相同的干净线条、清晰色块和平面化规则。画面气质温暖、稚趣、生活化、轻松幽默，构图直观舒适并保留适量留白，主体与空间轮廓清晰，成图具有完整、清爽、可直接用于动画背景的完成度，默认使用16:9横向画幅。保持纯二维儿童绘本动画效果，不使用写实、3D、厚涂、高密度商业插画、过度锐化或复杂动画美术表现。",
+      "required_suffix": "生成4次，每次返回不同图片。"
+    }
+  }
+}
