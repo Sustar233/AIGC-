@@ -1,0 +1,104 @@
+{
+  "project": "lucheng",
+  "version": "v001",
+  "shot_count": 8,
+  "columns": 2,
+  "rows": 4,
+  "reading_order": "left_to_right_then_top_to_bottom",
+  "coordinate_system": "pixels; origin top-left; x/y included; right/bottom excluded",
+  "crop_ratio": "16:9",
+  "crop_size": {
+    "width": 512,
+    "height": 288
+  },
+  "crop_verified": "两张原图可见画格边界已视觉核对；像素扫描留白带确认行间范围；共用裁剪区域为原画面内部保守裁剪，排除镜号标识带与边框",
+  "native_canvas_note": "模型返回A宽1150、B宽1151，高均1367；原图保留不重采样，共用坐标裁剪后每镜尺寸完全一致",
+  "images": [
+    {
+      "height": 1367,
+      "variant": "A",
+      "width": 1150,
+      "path": "停车场_前妻证据与金融大亨_分镜预览_A_v001.png"
+    },
+    {
+      "height": 1367,
+      "variant": "B",
+      "width": 1151,
+      "path": "停车场_前妻证据与金融大亨_分镜预览_B_v001.png"
+    }
+  ],
+  "shots": [
+    {
+      "shot": "01",
+      "row": 1.0,
+      "column": 1,
+      "x": 34,
+      "y": 38,
+      "width": 512,
+      "height": 288
+    },
+    {
+      "shot": "02",
+      "row": 1.0,
+      "column": 2,
+      "x": 604,
+      "y": 38,
+      "width": 512,
+      "height": 288
+    },
+    {
+      "shot": "03",
+      "row": 2.0,
+      "column": 1,
+      "x": 34,
+      "y": 378,
+      "width": 512,
+      "height": 288
+    },
+    {
+      "shot": "04",
+      "row": 2.0,
+      "column": 2,
+      "x": 604,
+      "y": 378,
+      "width": 512,
+      "height": 288
+    },
+    {
+      "shot": "05",
+      "row": 3.0,
+      "column": 1,
+      "x": 34,
+      "y": 716,
+      "width": 512,
+      "height": 288
+    },
+    {
+      "shot": "06",
+      "row": 3.0,
+      "column": 2,
+      "x": 604,
+      "y": 716,
+      "width": 512,
+      "height": 288
+    },
+    {
+      "shot": "07",
+      "row": 4.0,
+      "column": 1,
+      "x": 34,
+      "y": 1052,
+      "width": 512,
+      "height": 288
+    },
+    {
+      "shot": "08",
+      "row": 4.0,
+      "column": 2,
+      "x": 604,
+      "y": 1052,
+      "width": 512,
+      "height": 288
+    }
+  ]
+}

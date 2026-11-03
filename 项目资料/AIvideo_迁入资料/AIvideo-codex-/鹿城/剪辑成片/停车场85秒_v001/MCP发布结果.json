@@ -1,0 +1,39 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"dry_run\": false,\n  \"draft_name\": \"codex剪映测试_鹿城停车场85秒_v001\",\n  \"draft_path\": \"F:\\\\JianyingPro Drafts\\\\codex剪映测试_鹿城停车场85秒_v001\",\n  \"summary\": {\n    \"duration_us\": 84999999,\n    \"tracks\": 2,\n    \"segments\": 48,\n    \"track_types\": [\n      \"video\",\n      \"audio\"\n    ]\n  },\n  \"compatibility\": {\n    \"detected\": \"11.5.0.14471\",\n    \"tested\": \"10.0.5.13816\",\n    \"matches_tested_version\": false,\n    \"message\": \"当前剪映 11.5.0.14471 与已验证版本 10.0.5.13816 不一致；动画、在线资源、滤镜和草稿格式可能失效或显示不同，生成后必须抽样确认。\"\n  },\n  \"stages\": [\n    \"校验编辑清单\",\n    \"构建暂存草稿\",\n    \"校验草稿结构\",\n    \"发布到剪映草稿目录\"\n  ]\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "dry_run": false,
+    "draft_name": "codex剪映测试_鹿城停车场85秒_v001",
+    "draft_path": "F:\\JianyingPro Drafts\\codex剪映测试_鹿城停车场85秒_v001",
+    "summary": {
+      "duration_us": 84999999,
+      "tracks": 2,
+      "segments": 48,
+      "track_types": [
+        "video",
+        "audio"
+      ]
+    },
+    "compatibility": {
+      "detected": "11.5.0.14471",
+      "tested": "10.0.5.13816",
+      "matches_tested_version": false,
+      "message": "当前剪映 11.5.0.14471 与已验证版本 10.0.5.13816 不一致；动画、在线资源、滤镜和草稿格式可能失效或显示不同，生成后必须抽样确认。"
+    },
+    "stages": [
+      "校验编辑清单",
+      "构建暂存草稿",
+      "校验草稿结构",
+      "发布到剪映草稿目录"
+    ]
+  },
+  "isError": false
+}

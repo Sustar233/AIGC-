@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "project_name": "",
+  "initialized": false,
+  "project_type": "AI叙事视频",
+  "default_visual_style": "",
+  "preferred_models": { "image": [], "video": [] },
+  "paths": {
+    "scripts": "项目资料/剧本",
+    "database": "项目资料/database",
+    "character_prompts": "项目资料/outputs/人设/人设提示词.md",
+    "storyboards": "项目资料/outputs/分镜",
+    "storyboard_cache": "memory/storyboard-cache",
+    "style_references": "项目资料/参考图/画风",
+    "project_status": "memory/aivideo-project-status.md"
+  },
+  "features": {
+    "character_design": true,
+    "storyboard": true,
+    "combat_design": true,
+    "creature_assets": true
+  },
+  "workflow": {
+    "max_storyboard_units_per_batch": 4,
+    "default_storyboard_mode": "紧凑成片版",
+    "storyboard_generation": {
+      "context_mode": "incremental",
+      "default_detail": "紧凑成片版",
+      "max_unit_seconds": 15,
+      "default_shots_per_unit": [4, 6],
+      "output_modes": ["文字版", "带图版"],
+      "default_output_mode": "文字版",
+      "reference_loading": "on_demand",
+      "max_task_specific_requirements": 4,
+      "update_database_each_unit": false,
+      "preview": {
+        "images_per_unit": 1,
+        "reuse_current_context": true,
+        "selection_priority": ["关键剧情动作", "核心人物关系", "主要景别", "最典型构图"],
+        "output_path": "项目资料/outputs/分镜/previews"
+      }
+    },
+    "character_prompt_versions": 2,
+    "visual_prompt_output": {
+      "versions": ["精简版", "扩展版"],
+      "compact_rule": "只包含项目固定画风、必要制图规范，以及用户资料或剧本直接要求的主体、场景物品和动作，不做审美补全。",
+      "expanded_rule": "在不改变项目事实、固定识别锚点和剧情边界的前提下，可按生成需要补充构图、空间层次、材质、光影、氛围和可复用细节。",
+      "scene_style_suffix": "",
+      "required_suffix": "生成4次，每次返回不同图片。"
+    }
+  },
+  "pending_confirmation": ["题材与时代", "默认视觉风格", "目标图像模型", "目标视频模型", "角色完整视觉设定与正式声线"]
+}

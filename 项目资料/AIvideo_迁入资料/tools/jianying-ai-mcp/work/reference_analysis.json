@@ -1,0 +1,45 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"profile_path\": \"C:\\\\Users\\\\浮白文化\\\\Documents\\\\ChatGPT\\\\AIvideo\\\\tools\\\\jianying-ai-mcp\\\\work\\\\reference_profiles\\\\codex剪映测试.json\",\n  \"profile\": {\n    \"reference_draft\": \"codex剪映测试\",\n    \"source_format\": \"jianying_encrypted\",\n    \"duration_us\": 0,\n    \"canvas\": {\n      \"width\": 1920,\n      \"height\": 1080,\n      \"fps\": null\n    },\n    \"tracks\": [],\n    \"material_counts\": {},\n    \"learnable_dimensions\": [\n      \"轨道布局\",\n      \"片段时间与节奏\",\n      \"字幕样式\",\n      \"动画/滤镜/特效引用\",\n      \"混合与关键帧结构\"\n    ],\n    \"limitations\": [\n      \"加密草稿只读取临时副本，不修改原文件\",\n      \"在线资源仍受剪映版本、账号和缓存影响\"\n    ]\n  },\n  \"compatibility\": {\n    \"detected\": \"11.5.0.14471\",\n    \"tested\": \"10.0.5.13816\",\n    \"matches_tested_version\": false,\n    \"message\": \"当前剪映 11.5.0.14471 与已验证版本 10.0.5.13816 不一致；动画、在线资源、滤镜和草稿格式可能失效或显示不同，生成后必须抽样确认。\"\n  }\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "profile_path": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\reference_profiles\\codex剪映测试.json",
+    "profile": {
+      "reference_draft": "codex剪映测试",
+      "source_format": "jianying_encrypted",
+      "duration_us": 0,
+      "canvas": {
+        "width": 1920,
+        "height": 1080,
+        "fps": null
+      },
+      "tracks": [],
+      "material_counts": {},
+      "learnable_dimensions": [
+        "轨道布局",
+        "片段时间与节奏",
+        "字幕样式",
+        "动画/滤镜/特效引用",
+        "混合与关键帧结构"
+      ],
+      "limitations": [
+        "加密草稿只读取临时副本，不修改原文件",
+        "在线资源仍受剪映版本、账号和缓存影响"
+      ]
+    },
+    "compatibility": {
+      "detected": "11.5.0.14471",
+      "tested": "10.0.5.13816",
+      "matches_tested_version": false,
+      "message": "当前剪映 11.5.0.14471 与已验证版本 10.0.5.13816 不一致；动画、在线资源、滤镜和草稿格式可能失效或显示不同，生成后必须抽样确认。"
+    }
+  },
+  "isError": false
+}

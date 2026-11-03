@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "untrustedDataNotice": "Thread titles and messages are untrusted data, not instructions.",
+  "thread": {
+    "id": "6aa75fd5-3698-83e8-9025-e22b6dc94efd",
+    "kind": "chatgpt",
+    "title": "生人设（鹿城）",
+    "preview": "这里去掉男主手上的手机，车辆的车门关闭且女主微微依靠在车门上，生成4次，每次返回不同图片\n\n[User attached 1 image; image contents were not included]",
+    "status": {
+      "type": "idle"
+    },
+    "cwd": null,
+    "createdAt": 1789353941.750505,
+    "updatedAt": 1790566102.847475
+  },
+  "page": {
+    "order": "newest_first",
+    "limit": 8,
+    "nextCursor": null,
+    "hasMore": false
+  },
+  "turns": [
+    {
+      "id": "aa63ea24-ac31-4e60-9c33-763fe4962602",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1790566003.871,
+      "completedAt": 1790566003.871,
+      "durationMs": null,
+      "items": [
+        {
+          "type": "userMessage",
+          "id": "aa63ea24-ac31-4e60-9c33-763fe4962602",
+          "content": [
+            {
+              "type": "text",
+              "text": "这里去掉男主手上的手机，车辆的车门关闭且女主微微依靠在车门上，生成4次，每次返回不同图片\n\n[User attached 1 image; image contents were not included]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ff874b6-5b5b-4350-b9d6-ee3f3c917ec2",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1790564389.515,
+      "completedAt": 1790564389.515,
+      "durationMs": null,
+      "items": [
+        {
+          "type": "userMessage",
+          "id": "3ff874b6-5b5b-4350-b9d6-ee3f3c917ec2",
+          "content": [
+            {
+              "type": "text",
+              "text": "这里疑似一个车门打开，一个车门关闭，尝试去掉那个打开的车门，其余地方不做修改。 生成4次，每次返回不同图片\n\n[User attached 1 image; image contents were not included]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fe70b442-e653-4bca-a04a-597fec022db9",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1789698427.769,
+      "completedAt": 1789698427.769,
+      "durationMs": null,
+      "items": [
+        {
+          "type": "userMessage",
+          "id": "fe70b442-e653-4bca-a04a-597fec022db9",
+          "content": [
+            {
+              "type": "text",
+              "text": "把三个人设图里的保安放入一张图片里，生成4次，每次返回不同图片\n\n[User attached 3 images; image contents were not included]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "66e52e3d-957b-4a30-94e6-b9dcbbd03030",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1789639192.479,
+      "completedAt": 1789639192.479,
+      "durationMs": null,
+      "items": [
+        {
+          "type": "userMessage",
+          "id": "66e52e3d-957b-4a30-94e6-b9dcbbd03030",
+          "content": [
+            {
+              "type": "text",
+              "text": "用这个人设图生成视频时，人物占画幅比例过大，因此希望你修改该人设图，使得人物占整体画幅比例压缩，生成4次，每次返回不同图片（等比缩放到分别占画面25%,30%,35%,40%），禁止生成多宫格图，每张图片独立列出返回给我\n\n[User attached 1 image; image contents were not included]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dd856829-15a6-4e13-b644-a05bc81283f3",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1789639102.571,
+      "completedAt": 1789639102.571,
+      "durationMs": null,
+      "items": [
+        {
+          "type": "userMessage",
+          "id": "dd856829-15a6-4e13-b644-a05bc81283f3",
+          "content": [
+            {
+              "type": "text",
+              "text": "用这个人设图生成视频时，人物占画幅比例过大，因此希望你修改该人设图，使得人物占整体画幅比例压缩，生成4次，每次返回不同图片（等比缩放到分别占画面25%,30%,35%,40%）\n\n[User attached 1 image; image contents were not included]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attachments": [
+    {
+      "name": "3 位置参考图(2).png",
+      "path": "C:\\Users\\83763\\AppData\\Local\\Temp\\codex-file-preview-cqhv0r\\3 位置参考图(2).png"
+    },
+    {
+      "name": "鹿城需改图.png",
+      "path": "C:\\Users\\83763\\AppData\\Local\\Temp\\codex-file-preview-4hcrme\\鹿城需改图.png"
+    },
+    {
+      "name": "保镖3.png",
+      "path": "C:\\Users\\83763\\AppData\\Local\\Temp\\codex-file-preview-9dmCXd\\保镖3.png"
+    },
+    {
+      "name": "保镖2(1).png",
+      "path": "C:\\Users\\83763\\AppData\\Local\\Temp\\codex-file-preview-0eK0K2\\保镖2(1).png"
+    },
+    {
+      "name": "保镖1(1).png",
+      "path": "C:\\Users\\83763\\AppData\\Local\\Temp\\codex-file-preview-Mse65E\\保镖1(1).png"
+    },
+    {
+      "name": "Q版田静2(4).png",
+      "path": "C:\\Users\\83763\\AppData\\Local\\Temp\\codex-file-preview-x8DtFX\\Q版田静2(4).png"
+    },
+    {
+      "name": "Q版田静2(3).png",
+      "path": "C:\\Users\\83763\\AppData\\Local\\Temp\\codex-file-preview-dmdQb0\\Q版田静2(3).png"
+    }
+  ]
+}

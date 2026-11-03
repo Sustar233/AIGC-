@@ -1,0 +1,23 @@
+{
+  "reference_draft": "codex剪映测试",
+  "source_format": "jianying_encrypted",
+  "duration_us": 0,
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": null
+  },
+  "tracks": [],
+  "material_counts": {},
+  "learnable_dimensions": [
+    "轨道布局",
+    "片段时间与节奏",
+    "字幕样式",
+    "动画/滤镜/特效引用",
+    "混合与关键帧结构"
+  ],
+  "limitations": [
+    "加密草稿只读取临时副本，不修改原文件",
+    "在线资源仍受剪映版本、账号和缓存影响"
+  ]
+}

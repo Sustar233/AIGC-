@@ -1,0 +1,62 @@
+[
+  {
+    "id": "LC-SC-001",
+    "name": "B1地下停车场",
+    "path": "素材/场景/LC-SC-001_B1地下停车场_空间参考.png",
+    "source": "C:\\Users\\浮白文化\\AppData\\Local\\Temp\\codex-clipboard-130411a6-aafc-44bc-89ba-a6bab8bfdf18.png",
+    "received_date": "2026-10-10",
+    "sha256": "CD35D7FEA50DCB0232D1331512C0DBF2AFB00D3D214EBCAA42422F255F071D54",
+    "bytes": 1600614,
+    "role_name_basis": "本次图像与已有鹿城资料对应，非图片内姓名标签"
+  },
+  {
+    "id": "LC-CH-001",
+    "name": "方向",
+    "path": "素材/角色/LC-CH-001_方向_三视图与细节.png",
+    "source": "C:\\Users\\浮白文化\\AppData\\Local\\Temp\\codex-clipboard-6cb1e74d-3da4-44ed-860f-5d5de811dd97.png",
+    "received_date": "2026-10-10",
+    "sha256": "E6E55B6003F7892C4D15D49CCFC9E7E2162684D4EEBC5C09DDAEC38253D14DC9",
+    "bytes": 1341957,
+    "role_name_basis": "本次图像与已有鹿城资料对应，非图片内姓名标签"
+  },
+  {
+    "id": "LC-CH-002",
+    "name": "田静",
+    "path": "素材/角色/LC-CH-002_田静_三视图与细节.png",
+    "source": "C:\\Users\\浮白文化\\AppData\\Local\\Temp\\codex-clipboard-f35ba9f1-6118-4c21-af34-3dadacc564f0.png",
+    "received_date": "2026-10-10",
+    "sha256": "0E616B20C4FC4F89DF9F81136B02DC3BA7D3B85A972A8F39C76F2501FCCA8C0C",
+    "bytes": 1574855,
+    "role_name_basis": "本次图像与已有鹿城资料对应，非图片内姓名标签"
+  },
+  {
+    "id": "LC-CH-003",
+    "name": "孙鸽",
+    "path": "素材/角色/LC-CH-003_孙鸽_三视图与细节.webp",
+    "source": "C:\\Users\\浮白文化\\AppData\\Local\\Temp\\codex-clipboard-a07a75d3-e559-4172-b1fa-0fb4de1024a0.webp",
+    "received_date": "2026-10-10",
+    "sha256": "874AC6A66B5FCBBFCAE67E3F8F3CE4B0758EEDF1A7E099C20D001B48DF3C172B",
+    "bytes": 77508,
+    "role_name_basis": "本次图像与已有鹿城资料对应，非图片内姓名标签"
+  },
+  {
+    "id": "LC-CH-004",
+    "name": "油条",
+    "path": "素材/角色/LC-CH-004_油条_三视图与细节.png",
+    "source": "C:\\Users\\浮白文化\\AppData\\Local\\Temp\\codex-clipboard-b6e0b1ad-f207-403e-851c-9688c07cece1.png",
+    "received_date": "2026-10-10",
+    "sha256": "9A424F4989EE6291ADEE705B987BED59772DF8AED1BFF952BE7C4F26F973C21E",
+    "bytes": 2293676,
+    "role_name_basis": "本次图像与已有鹿城资料对应，非图片内姓名标签"
+  },
+  {
+    "id": "LC-BL-001",
+    "name": "停车场-孙鸽出场前-站位图",
+    "path": "素材/场景/LC-BL-001_停车场_孙鸽出场前_站位图.png",
+    "source": "C:\\Users\\浮白文化\\Desktop\\停车场-孙鸽出场前-站位图.png",
+    "received_date": "2026-10-10",
+    "sha256": "917A584716891F00AC75704624D644EF905E5133EED8E64BE196B8787427D369",
+    "bytes": 1621802,
+    "role_name_basis": "本次用户指定站位参考，人物对应既有方向/油条/田静设定"
+  }
+]

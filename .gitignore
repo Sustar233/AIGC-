@@ -14,6 +14,7 @@ build/
 
 # Blender generated caches and backups
 *.blend1
+memory/workspace-merges/**/AIvideo_完整工作区.zip
 项目资料/outputs/白模/**/frames/
 项目资料/outputs/白模/**/视频帧/
 项目资料/outputs/白模/**/核验帧/

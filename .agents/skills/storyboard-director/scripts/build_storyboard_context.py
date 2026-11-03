@@ -48,7 +48,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--character", action="append", default=[], help="Current character name; repeat as needed")
     parser.add_argument("--scene", help="Current scene name")
     parser.add_argument("--prop", action="append", default=[], help="Current key prop name; repeat as needed")
-    parser.add_argument("--output-mode", choices=("文字版", "带图版"), help="Storyboard output mode")
+    parser.add_argument("--output-mode", choices=("文字版", "带图版", "多格预览版"), help="Storyboard output mode")
     return parser.parse_args()
 
 
@@ -168,7 +168,8 @@ def main() -> None:
     workflow = project.get("workflow", {}).get("storyboard_generation", {})
     output_mode = args.output_mode or workflow.get("default_output_mode", "文字版")
     keys = NEW_EPISODE_KEYS if args.new_episode else CONTINUATION_KEYS
-    cache_path = root / "memory" / "storyboard-cache" / f"第{args.episode}集.md"
+    cache_root = project.get("paths", {}).get("storyboard_cache", "memory/storyboard-cache")
+    cache_path = root / cache_root / f"第{args.episode}集.md"
 
     print("# 分镜最小上下文")
     print(f"- 项目：{project.get('project_name', '待确认')}")

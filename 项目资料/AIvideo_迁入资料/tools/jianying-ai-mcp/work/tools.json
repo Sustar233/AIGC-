@@ -1,0 +1,415 @@
+{
+  "meta": null,
+  "nextCursor": null,
+  "tools": [
+    {
+      "name": "get_jianying_capabilities",
+      "title": null,
+      "description": "返回已验证、禁用和首版未纳入的能力，并检测本机剪映版本。规划前必须调用。",
+      "inputSchema": {
+        "properties": {},
+        "title": "get_jianying_capabilitiesArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "get_jianying_capabilitiesDictOutput",
+        "type": "object"
+      },
+      "icons": null,
+      "annotations": null,
+      "meta": null,
+      "execution": null
+    },
+    {
+      "name": "analyze_video_source",
+      "title": null,
+      "description": "准备可供多模态 Agent 理解的视频上下文。\n\n    返回视频元数据、语句级时间戳字幕、SRT 路径和代表帧绝对路径。detail 可选\n    transcript/efficient/balanced/dense；默认 efficient。先粗看，再用 start/end 对候选区间复查。\n    transcription 可选 auto/none/groq/openai；仅在没有字幕且配置 API Key 时上传压缩音频，\n    不上传视频或画面。此工具负责提取，不会自行声称已看懂画面。\n    ",
+      "inputSchema": {
+        "properties": {
+          "source": {
+            "title": "Source",
+            "type": "string"
+          },
+          "detail": {
+            "default": "efficient",
+            "title": "Detail",
+            "type": "string"
+          },
+          "start": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Start"
+          },
+          "end": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "End"
+          },
+          "max_frames": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Max Frames"
+          },
+          "resolution": {
+            "default": 512,
+            "title": "Resolution",
+            "type": "integer"
+          },
+          "subtitle_path": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Subtitle Path"
+          },
+          "transcription": {
+            "default": "auto",
+            "title": "Transcription",
+            "type": "string"
+          }
+        },
+        "required": [
+          "source"
+        ],
+        "title": "analyze_video_sourceArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "analyze_video_sourceDictOutput",
+        "type": "object"
+      },
+      "icons": null,
+      "annotations": null,
+      "meta": null,
+      "execution": null
+    },
+    {
+      "name": "save_video_observations",
+      "title": null,
+      "description": "保存 Agent 对代表帧的结构化理解，供后续剪辑规划复用。\n\n    observations 每项为 {time_ms, description, tags?, confidence?}；edit_candidates 每项为\n    {start_ms, end_ms, reason, confidence?}。只保存模型已经实际读取过的画面结论。\n    ",
+      "inputSchema": {
+        "properties": {
+          "analysis_id": {
+            "title": "Analysis Id",
+            "type": "string"
+          },
+          "observations": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Observations",
+            "type": "array"
+          },
+          "edit_candidates": {
+            "anyOf": [
+              {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Edit Candidates"
+          }
+        },
+        "required": [
+          "analysis_id",
+          "observations"
+        ],
+        "title": "save_video_observationsArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "save_video_observationsDictOutput",
+        "type": "object"
+      },
+      "icons": null,
+      "annotations": null,
+      "meta": null,
+      "execution": null
+    },
+    {
+      "name": "get_video_analysis_context",
+      "title": null,
+      "description": "按时间范围和分页读取已缓存的视频字幕、代表帧及观察路径。\n\n    长视频不要一次加载完整字幕；从 offset=0 开始，根据 next_offset 继续。指定\n    start_ms/end_ms 可只取得候选区间，避免重复抽帧和浪费上下文。\n    ",
+      "inputSchema": {
+        "properties": {
+          "analysis_id": {
+            "title": "Analysis Id",
+            "type": "string"
+          },
+          "start_ms": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Start Ms"
+          },
+          "end_ms": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "End Ms"
+          },
+          "offset": {
+            "default": 0,
+            "title": "Offset",
+            "type": "integer"
+          },
+          "limit": {
+            "default": 120,
+            "title": "Limit",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "analysis_id"
+        ],
+        "title": "get_video_analysis_contextArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "get_video_analysis_contextDictOutput",
+        "type": "object"
+      },
+      "icons": null,
+      "annotations": null,
+      "meta": null,
+      "execution": null
+    },
+    {
+      "name": "analyze_reference_draft",
+      "title": null,
+      "description": "读取参考草稿并提取剪辑蓝图；已配置读取器时支持剪映加密草稿且不修改源文件。",
+      "inputSchema": {
+        "properties": {
+          "draft_name": {
+            "title": "Draft Name",
+            "type": "string"
+          },
+          "include_text": {
+            "default": false,
+            "title": "Include Text",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "draft_name"
+        ],
+        "title": "analyze_reference_draftArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "analyze_reference_draftDictOutput",
+        "type": "object"
+      },
+      "icons": null,
+      "annotations": null,
+      "meta": null,
+      "execution": null
+    },
+    {
+      "name": "build_draft",
+      "title": null,
+      "description": "一次提交紧凑编辑清单并生成新草稿。\n\n    manifest 结构：\n    - draft: {name, width?, height?, fps?}\n    - tracks: [{type, name, segments:[...]}]\n    - srt_imports?: [{source, track_name?, style?, clip?}]\n\n    轨道 type 支持 video/audio/text/sticker/effect/filter。时间字段使用 start、duration；\n    媒体可加 source_start/source_duration、speed。具体字段见 Skill 的 manifest-schema.md。\n    默认 dry_run=true，只在暂存区完整构建和校验；确认后传 false 发布到剪映草稿目录。\n    ",
+      "inputSchema": {
+        "properties": {
+          "manifest": {
+            "additionalProperties": true,
+            "title": "Manifest",
+            "type": "object"
+          },
+          "dry_run": {
+            "default": true,
+            "title": "Dry Run",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "manifest"
+        ],
+        "title": "build_draftArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "build_draftDictOutput",
+        "type": "object"
+      },
+      "icons": null,
+      "annotations": null,
+      "meta": null,
+      "execution": null
+    },
+    {
+      "name": "build_from_reference",
+      "title": null,
+      "description": "复制明文或可解密参考草稿的剪辑蓝图，并按轨道与片段下标替换素材或文本。\n\n    replacements 项：{track_type, track_name? 或 track_index?, segment_index, source,\n    source_start?, source_duration?}。text_replacements 项：{track_name? 或 track_index?,\n    segment_index, text, recalc_style?}。\n    ",
+      "inputSchema": {
+        "properties": {
+          "reference_draft": {
+            "title": "Reference Draft",
+            "type": "string"
+          },
+          "new_draft_name": {
+            "title": "New Draft Name",
+            "type": "string"
+          },
+          "replacements": {
+            "anyOf": [
+              {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Replacements"
+          },
+          "text_replacements": {
+            "anyOf": [
+              {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Text Replacements"
+          },
+          "dry_run": {
+            "default": true,
+            "title": "Dry Run",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "reference_draft",
+          "new_draft_name"
+        ],
+        "title": "build_from_referenceArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "build_from_referenceDictOutput",
+        "type": "object"
+      },
+      "icons": null,
+      "annotations": null,
+      "meta": null,
+      "execution": null
+    },
+    {
+      "name": "batch_from_template",
+      "title": null,
+      "description": "基于一个明文模板批量生成草稿。每个 job 包含 name、replacements、text_replacements。",
+      "inputSchema": {
+        "properties": {
+          "template_draft": {
+            "title": "Template Draft",
+            "type": "string"
+          },
+          "jobs": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Jobs",
+            "type": "array"
+          },
+          "dry_run": {
+            "default": true,
+            "title": "Dry Run",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "template_draft",
+          "jobs"
+        ],
+        "title": "batch_from_templateArguments",
+        "type": "object"
+      },
+      "outputSchema": {
+        "additionalProperties": true,
+        "title": "batch_from_templateDictOutput",
+        "type": "object"
+      },
+      "icons": null,
+      "annotations": null,
+      "meta": null,
+      "execution": null
+    }
+  ]
+}

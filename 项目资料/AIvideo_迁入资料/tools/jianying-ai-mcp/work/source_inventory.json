@@ -1,0 +1,648 @@
+{
+  "draft_meta_info.json": {
+    "cloud_draft_cover": false,
+    "cloud_draft_sync": false,
+    "cloud_package_completed_time": "",
+    "draft_cloud_capcut_purchase_info": "",
+    "draft_cloud_last_action_download": false,
+    "draft_cloud_package_type": "",
+    "draft_cloud_purchase_info": "",
+    "draft_cloud_template_id": "",
+    "draft_cloud_tutorial_info": "",
+    "draft_cloud_videocut_purchase_info": "",
+    "draft_cover": "draft_cover.jpg",
+    "draft_deeplink_url": "",
+    "draft_enterprise_info": {
+      "draft_enterprise_extra": "",
+      "draft_enterprise_id": "",
+      "draft_enterprise_name": "",
+      "enterprise_material": []
+    },
+    "draft_fold_path": "F:/JianyingPro Drafts/10月12日",
+    "draft_has_unfinished_aigc_video_effect": false,
+    "draft_id": "A3839AFD-2949-4593-B383-DB4B784E670C",
+    "draft_is_ae_produce": false,
+    "draft_is_ai_packaging_used": false,
+    "draft_is_ai_shorts": false,
+    "draft_is_ai_translate": false,
+    "draft_is_article_video_draft": false,
+    "draft_is_cloud_temp_draft": false,
+    "draft_is_from_deeplink": "false",
+    "draft_is_infinite_canvas_draft": false,
+    "draft_is_invisible": false,
+    "draft_is_pippit_draft": false,
+    "draft_is_web_article_video": false,
+    "draft_materials": [
+      {
+        "type": 0,
+        "value": [
+          {
+            "ai_group_type": "",
+            "create_time": 1789370868,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "1 (2).mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/1 (2).mp4",
+            "height": 630,
+            "id": "f4b62cb7-cb25-4135-9027-1a6f2d743acd",
+            "import_time": 1791770067,
+            "import_time_ms": 1791770017020377,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1470
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789613381,
+            "duration": 4700000,
+            "enter_from": 0,
+            "extra_info": "1（补）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/1（补）.mp4",
+            "height": 1440,
+            "id": "53df637d-7462-43cc-bc08-32b0f0d3970a",
+            "import_time": 1791770068,
+            "import_time_ms": 1791770017027364,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 4700000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 2560
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789456680,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "1,2（补）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/1,2（补）.mp4",
+            "height": 720,
+            "id": "7d596df1-bf75-4164-ab1a-84fc02a6c479",
+            "import_time": 1791770069,
+            "import_time_ms": 1791770017028131,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789458254,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "1,2（补1）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/1,2（补1）.mp4",
+            "height": 720,
+            "id": "674a592c-d3a9-4e46-a85a-e360ff29974b",
+            "import_time": 1791770070,
+            "import_time_ms": 1791770017028676,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789616839,
+            "duration": 4016000,
+            "enter_from": 0,
+            "extra_info": "1-2(1).mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/1-2(1).mp4",
+            "height": 720,
+            "id": "4a6f3478-ac1c-41ce-af6e-48abf22f8192",
+            "import_time": 1791770071,
+            "import_time_ms": 1791770017029326,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 4016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1791626408,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "1-2（补镜头）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/1-2（补镜头）.mp4",
+            "height": 720,
+            "id": "83846c1c-f1c9-4058-9d9e-81d422d794b9",
+            "import_time": 1791770072,
+            "import_time_ms": 1791770017030063,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789379485,
+            "duration": 11016000,
+            "enter_from": 0,
+            "extra_info": "1-2.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/1-2.mp4",
+            "height": 720,
+            "id": "71abfc1c-756a-4211-9bbc-1ffb7edb9c4c",
+            "import_time": 1791770073,
+            "import_time_ms": 1791770017030740,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 11016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789379802,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "2.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/2.mp4",
+            "height": 720,
+            "id": "ead7da9a-ac3e-4805-a956-a137ee3902c0",
+            "import_time": 1791770074,
+            "import_time_ms": 1791770017031725,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789437640,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "3.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/3.mp4",
+            "height": 720,
+            "id": "3d48db63-d69e-4fbd-ae64-a575922baa4a",
+            "import_time": 1791770075,
+            "import_time_ms": 1791770017032548,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789454780,
+            "duration": 11016000,
+            "enter_from": 0,
+            "extra_info": "4（1）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/4（1）.mp4",
+            "height": 720,
+            "id": "9713cb9b-a38e-46ce-8bc1-a375d0860c36",
+            "import_time": 1791770076,
+            "import_time_ms": 1791770017033254,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 11016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789457389,
+            "duration": 11016000,
+            "enter_from": 0,
+            "extra_info": "4（2）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/4（2）.mp4",
+            "height": 720,
+            "id": "b1738490-3054-4338-a054-f295a33286d8",
+            "import_time": 1791770077,
+            "import_time_ms": 1791770017034629,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 11016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789452140,
+            "duration": 11016000,
+            "enter_from": 0,
+            "extra_info": "4.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/4.mp4",
+            "height": 720,
+            "id": "cd9e8140-bd73-4327-b9da-9f2248d2c6d0",
+            "import_time": 1791770078,
+            "import_time_ms": 1791770017036270,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 11016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789636833,
+            "duration": 14800000,
+            "enter_from": 0,
+            "extra_info": "5（Q版） (1).mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/5（Q版） (1).mp4",
+            "height": 1440,
+            "id": "22a82496-64b1-476b-aa47-222135cf0636",
+            "import_time": 1791770079,
+            "import_time_ms": 1791770017037594,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 14800000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 2560
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789696295,
+            "duration": 15066000,
+            "enter_from": 0,
+            "extra_info": "5（Q版） (2).mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/5（Q版） (2).mp4",
+            "height": 1440,
+            "id": "593ca490-ed2e-4d23-b77b-ac28a548afa5",
+            "import_time": 1791770080,
+            "import_time_ms": 1791770017039500,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15066000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 2560
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789695746,
+            "duration": 15033000,
+            "enter_from": 0,
+            "extra_info": "5（Q版） (3).mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/5（Q版） (3).mp4",
+            "height": 1440,
+            "id": "058366d6-ea2a-4bfa-b100-0ec70a0d3368",
+            "import_time": 1791770081,
+            "import_time_ms": 1791770017042329,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15033000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 2560
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789527865,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "5（Q版1）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/5（Q版1）.mp4",
+            "height": 720,
+            "id": "052b0235-b44a-43d1-9262-7051d128b4a1",
+            "import_time": 1791770082,
+            "import_time_ms": 1791770017044774,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789538395,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "5（Q版2）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/5（Q版2）.mp4",
+            "height": 720,
+            "id": "ff0e5e2a-3027-4a68-8731-55951430b5e7",
+            "import_time": 1791770083,
+            "import_time_ms": 1791770017046246,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789543139,
+            "duration": 11016000,
+            "enter_from": 0,
+            "extra_info": "6（1）.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/6（1）.mp4",
+            "height": 720,
+            "id": "9b7eee66-16ca-424c-a22d-4cdee45d339f",
+            "import_time": 1791770084,
+            "import_time_ms": 1791770017048045,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 11016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789541748,
+            "duration": 11016000,
+            "enter_from": 0,
+            "extra_info": "6.mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/6.mp4",
+            "height": 720,
+            "id": "cc03dab8-cc61-46d2-be1f-256b921318a7",
+            "import_time": 1791770085,
+            "import_time_ms": 1791770017050313,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 11016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1280
+          },
+          {
+            "ai_group_type": "",
+            "create_time": 1789370907,
+            "duration": 15016000,
+            "enter_from": 0,
+            "extra_info": "1 (1).mp4",
+            "file_Path": "C:/Users/浮白文化/Desktop/鹿城1-3/视频/1 (1).mp4",
+            "height": 630,
+            "id": "95cd1057-4080-41eb-84e0-ee0e0e93df09",
+            "import_time": 1791770086,
+            "import_time_ms": 1791770017052698,
+            "item_source": 1,
+            "material_color_tag": "",
+            "md5": "",
+            "metetype": "video",
+            "roughcut_time_range": {
+              "duration": 15016000,
+              "start": 0
+            },
+            "sub_time_range": {
+              "duration": -1,
+              "start": -1
+            },
+            "type": 0,
+            "width": 1470
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "value": []
+      },
+      {
+        "type": 2,
+        "value": []
+      },
+      {
+        "type": 3,
+        "value": []
+      },
+      {
+        "type": 6,
+        "value": []
+      },
+      {
+        "type": 7,
+        "value": []
+      },
+      {
+        "type": 8,
+        "value": []
+      }
+    ],
+    "draft_materials_copied_info": [],
+    "draft_name": "10月12日",
+    "draft_need_rename_folder": false,
+    "draft_new_version": "",
+    "draft_removable_storage_device": "F:",
+    "draft_root_path": "F:\\JianyingPro Drafts",
+    "draft_segment_extra_info": [],
+    "draft_timeline_materials_size_": 67582,
+    "draft_type": "",
+    "draft_web_article_video_enter_from": "",
+    "pippit_avatar_url": "",
+    "pippit_extra_info": "",
+    "pippit_id": "",
+    "pippit_user_name": "",
+    "tm_draft_cloud_completed": "",
+    "tm_draft_cloud_entry_id": -1,
+    "tm_draft_cloud_modified": 0,
+    "tm_draft_cloud_parent_entry_id": -1,
+    "tm_draft_cloud_space_id": -1,
+    "tm_draft_cloud_user_id": -1,
+    "tm_draft_create": 1791769989323128,
+    "tm_draft_modified": 1791770040936654,
+    "tm_draft_removed": 0,
+    "tm_duration": 0
+  },
+  "Timelines/F6CC82EC-7503-4de3-BECA-268636F75C62/draft_content.json": {
+    "id": "F6CC82EC-7503-4de3-BECA-268636F75C62",
+    "version": 360000,
+    "new_version": "187.0.0",
+    "config": {},
+    "canvas_config": {
+      "width": 1920,
+      "height": 1080
+    },
+    "materials": {},
+    "keyframes": {},
+    "platform": {
+      "os": "windows",
+      "os_version": "10.0.26200",
+      "app_id": 3704,
+      "app_version": "11.5.0",
+      "app_source": "lv",
+      "device_id": "ebe40cf2483c6ac89eec445c58d46da0",
+      "mac_address": "c606ef435900ed41618df320e11ea34e"
+    },
+    "last_modified_platform": {
+      "os": "windows",
+      "os_version": "10.0.26200",
+      "app_id": 3704,
+      "app_version": "11.5.0",
+      "app_source": "lv",
+      "device_id": "ebe40cf2483c6ac89eec445c58d46da0",
+      "mac_address": "c606ef435900ed41618df320e11ea34e"
+    },
+    "render_index_track_mode_on": true,
+    "path": "",
+    "uneven_animation_template_info": {},
+    "smart_ads_info": {},
+    "function_assistant_info": {
+      "fps": {}
+    }
+  }
+}

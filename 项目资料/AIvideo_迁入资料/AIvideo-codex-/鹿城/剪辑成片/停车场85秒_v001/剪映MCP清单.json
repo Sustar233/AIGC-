@@ -1,0 +1,868 @@
+{
+  "draft": {
+    "name": "codex剪映测试_鹿城停车场85秒_v001",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "tracks": [
+    {
+      "type": "video",
+      "name": "画面剪辑与运镜",
+      "segments": [
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1-2（补镜头）.mp4",
+          "start": 0,
+          "duration": 1066666,
+          "source_start": 600000,
+          "source_duration": 1066666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.035,
+            "scale_y": 1.035,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1-2（补镜头）.mp4",
+          "start": 1066666,
+          "duration": 2766666,
+          "source_start": 3200000,
+          "source_duration": 2766666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.035,
+            "scale_y": 1.035,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1 (2).mp4",
+          "start": 3833333,
+          "duration": 2033333,
+          "source_start": 200000,
+          "source_duration": 2033333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.3125000000000002,
+            "scale_y": 1.3125000000000002,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1 (2).mp4",
+          "start": 5866666,
+          "duration": 1166666,
+          "source_start": 2233333,
+          "source_duration": 1166666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.3125000000000002,
+            "scale_y": 1.3125000000000002,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1 (2).mp4",
+          "start": 7033333,
+          "duration": 1533333,
+          "source_start": 3400000,
+          "source_duration": 1533333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.3125000000000002,
+            "scale_y": 1.3125000000000002,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1-2（补镜头）.mp4",
+          "start": 8566666,
+          "duration": 1900000,
+          "source_start": 6500000,
+          "source_duration": 1900000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.0
+            },
+            {
+              "property": "uniform_scale",
+              "time": 1866666,
+              "value": 1.06
+            },
+            {
+              "property": "position_x",
+              "time": 0,
+              "value": 0.0
+            },
+            {
+              "property": "position_x",
+              "time": 1866666,
+              "value": 0.0036000000000000064
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1-2（补镜头）.mp4",
+          "start": 10466666,
+          "duration": 3900000,
+          "source_start": 8400000,
+          "source_duration": 3900000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1-2（补镜头）.mp4",
+          "start": 14366666,
+          "duration": 2700000,
+          "source_start": 12300000,
+          "source_duration": 2700000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.03,
+            "scale_y": 1.03,
+            "transform_x": 0.001200000000000002,
+            "transform_y": -0.0018000000000000032
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.03
+            },
+            {
+              "property": "uniform_scale",
+              "time": 2666666,
+              "value": 1.1
+            },
+            {
+              "property": "position_x",
+              "time": 0,
+              "value": 0.001200000000000002
+            },
+            {
+              "property": "position_x",
+              "time": 2666666,
+              "value": 0.004000000000000007
+            },
+            {
+              "property": "position_y",
+              "time": 0,
+              "value": -0.0018000000000000032
+            },
+            {
+              "property": "position_y",
+              "time": 2666666,
+              "value": -0.0060000000000000105
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1-2(1).mp4",
+          "start": 17066666,
+          "duration": 3166666,
+          "source_start": 0,
+          "source_duration": 3166666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.04,
+            "scale_y": 1.04,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\1-2(1).mp4",
+          "start": 20233333,
+          "duration": 500000,
+          "source_start": 3166666,
+          "source_duration": 500000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.1,
+            "scale_y": 1.1,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\2.mp4",
+          "start": 20733333,
+          "duration": 2733333,
+          "source_start": 0,
+          "source_duration": 2733333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.02,
+            "scale_y": 1.02,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.02
+            },
+            {
+              "property": "uniform_scale",
+              "time": 2700000,
+              "value": 1.07
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\2.mp4",
+          "start": 23466666,
+          "duration": 2166666,
+          "source_start": 2733333,
+          "source_duration": 2166666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\2.mp4",
+          "start": 25633333,
+          "duration": 3666666,
+          "source_start": 4900000,
+          "source_duration": 3666666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.02,
+            "scale_y": 1.02,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.02
+            },
+            {
+              "property": "uniform_scale",
+              "time": 3633333,
+              "value": 1.07
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\2.mp4",
+          "start": 29300000,
+          "duration": 4866666,
+          "source_start": 8566666,
+          "source_duration": 4866666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.05,
+            "scale_y": 1.05,
+            "transform_x": 0.006000000000000005,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.05
+            },
+            {
+              "property": "uniform_scale",
+              "time": 4833333,
+              "value": 1.1
+            },
+            {
+              "property": "position_x",
+              "time": 0,
+              "value": 0.006000000000000005
+            },
+            {
+              "property": "position_x",
+              "time": 4833333,
+              "value": 0.01200000000000001
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\2.mp4",
+          "start": 34166666,
+          "duration": 1466666,
+          "source_start": 13433333,
+          "source_duration": 1466666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.045,
+            "scale_y": 1.045,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\3.mp4",
+          "start": 35633333,
+          "duration": 2933333,
+          "source_start": 0,
+          "source_duration": 2933333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.08,
+            "scale_y": 1.08,
+            "transform_x": 0.01120000000000001,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\3.mp4",
+          "start": 38566666,
+          "duration": 2000000,
+          "source_start": 3400000,
+          "source_duration": 2000000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\3.mp4",
+          "start": 40566666,
+          "duration": 2666666,
+          "source_start": 5400000,
+          "source_duration": 2666666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\3.mp4",
+          "start": 43233333,
+          "duration": 2700000,
+          "source_start": 8066666,
+          "source_duration": 2700000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.04,
+            "scale_y": 1.04,
+            "transform_x": -0.006400000000000003,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.04
+            },
+            {
+              "property": "uniform_scale",
+              "time": 2666666,
+              "value": 1.1
+            },
+            {
+              "property": "position_x",
+              "time": 0,
+              "value": -0.006400000000000003
+            },
+            {
+              "property": "position_x",
+              "time": 2666666,
+              "value": -0.016000000000000007
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\3.mp4",
+          "start": 45933333,
+          "duration": 4233333,
+          "source_start": 10766666,
+          "source_duration": 4233333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.04,
+            "scale_y": 1.04,
+            "transform_x": -0.006400000000000003,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.04
+            },
+            {
+              "property": "uniform_scale",
+              "time": 4200000,
+              "value": 1.1
+            },
+            {
+              "property": "position_x",
+              "time": 0,
+              "value": -0.006400000000000003
+            },
+            {
+              "property": "position_x",
+              "time": 4200000,
+              "value": -0.016000000000000007
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\4（1）.mp4",
+          "start": 50166666,
+          "duration": 1733333,
+          "source_start": 0,
+          "source_duration": 1733333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.04,
+            "scale_y": 1.04,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\4（1）.mp4",
+          "start": 51900000,
+          "duration": 2333333,
+          "source_start": 1733333,
+          "source_duration": 2333333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\4（1）.mp4",
+          "start": 54233333,
+          "duration": 2300000,
+          "source_start": 4066666,
+          "source_duration": 2300000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.02,
+            "scale_y": 1.02,
+            "transform_x": -0.0008000000000000014,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.02
+            },
+            {
+              "property": "uniform_scale",
+              "time": 2266666,
+              "value": 1.07
+            },
+            {
+              "property": "position_x",
+              "time": 0,
+              "value": -0.0008000000000000014
+            },
+            {
+              "property": "position_x",
+              "time": 2266666,
+              "value": -0.002800000000000005
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\4（1）.mp4",
+          "start": 56533333,
+          "duration": 3666666,
+          "source_start": 6833333,
+          "source_duration": 3666666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\5（Q版） (1).mp4",
+          "start": 60200000,
+          "duration": 1800000,
+          "source_start": 0,
+          "source_duration": 1800000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\5（Q版） (1).mp4",
+          "start": 62000000,
+          "duration": 5666666,
+          "source_start": 1800000,
+          "source_duration": 5666666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\5（Q版） (1).mp4",
+          "start": 67666666,
+          "duration": 733333,
+          "source_start": 7466666,
+          "source_duration": 733333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\5（Q版） (1).mp4",
+          "start": 68400000,
+          "duration": 2400000,
+          "source_start": 8200000,
+          "source_duration": 2400000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\5（Q版） (1).mp4",
+          "start": 70800000,
+          "duration": 1566666,
+          "source_start": 10600000,
+          "source_duration": 1566666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\5（Q版） (1).mp4",
+          "start": 72366666,
+          "duration": 100000,
+          "source_start": 12566666,
+          "source_duration": 100000,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\5（Q版） (1).mp4",
+          "start": 72466666,
+          "duration": 2066666,
+          "source_start": 12666666,
+          "source_duration": 2066666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\6.mp4",
+          "start": 74533333,
+          "duration": 2233333,
+          "source_start": 0,
+          "source_duration": 2233333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.04,
+            "scale_y": 1.04,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\6.mp4",
+          "start": 76766666,
+          "duration": 3766666,
+          "source_start": 2233333,
+          "source_duration": 3766666,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.0,
+            "scale_y": 1.0,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.0
+            },
+            {
+              "property": "uniform_scale",
+              "time": 3733333,
+              "value": 1.1
+            }
+          ]
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\6.mp4",
+          "start": 80533333,
+          "duration": 1633333,
+          "source_start": 6000000,
+          "source_duration": 1633333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.065,
+            "scale_y": 1.065,
+            "transform_x": 0.0,
+            "transform_y": 0.0
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Desktop\\鹿城1-3\\视频\\6.mp4",
+          "start": 82166666,
+          "duration": 2833333,
+          "source_start": 7633333,
+          "source_duration": 2833333,
+          "volume": 0,
+          "clip": {
+            "scale_x": 1.04,
+            "scale_y": 1.04,
+            "transform_x": 0.001600000000000003,
+            "transform_y": 0.0
+          },
+          "keyframes": [
+            {
+              "property": "uniform_scale",
+              "time": 0,
+              "value": 1.04
+            },
+            {
+              "property": "uniform_scale",
+              "time": 2800000,
+              "value": 1.08
+            },
+            {
+              "property": "position_x",
+              "time": 0,
+              "value": 0.001600000000000003
+            },
+            {
+              "property": "position_x",
+              "time": 2800000,
+              "value": 0.003200000000000006
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "audio",
+      "name": "对白与原场景声",
+      "segments": [
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_05.wav",
+          "start": 0,
+          "duration": 1066666,
+          "source_start": 600000,
+          "source_duration": 1066666,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_05.wav",
+          "start": 1066666,
+          "duration": 2766666,
+          "source_start": 3200000,
+          "source_duration": 2766666,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_00.wav",
+          "start": 3833333,
+          "duration": 4733333,
+          "source_start": 200000,
+          "source_duration": 4733333,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_05.wav",
+          "start": 8566666,
+          "duration": 8500000,
+          "source_start": 6500000,
+          "source_duration": 8500000,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_04.wav",
+          "start": 17066666,
+          "duration": 3666666,
+          "source_start": 0,
+          "source_duration": 3666666,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_07.wav",
+          "start": 20733333,
+          "duration": 14900000,
+          "source_start": 0,
+          "source_duration": 14900000,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_08.wav",
+          "start": 35633333,
+          "duration": 2933333,
+          "source_start": 0,
+          "source_duration": 2933333,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_08.wav",
+          "start": 38566666,
+          "duration": 11600000,
+          "source_start": 3400000,
+          "source_duration": 11600000,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_09.wav",
+          "start": 50166666,
+          "duration": 6366666,
+          "source_start": 0,
+          "source_duration": 6366666,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_09.wav",
+          "start": 56533333,
+          "duration": 3666666,
+          "source_start": 6833333,
+          "source_duration": 3666666,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_12.wav",
+          "start": 60200000,
+          "duration": 12166666,
+          "source_start": 0,
+          "source_duration": 12166666,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_12.wav",
+          "start": 72366666,
+          "duration": 2166666,
+          "source_start": 12566666,
+          "source_duration": 2166666,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        },
+        {
+          "source": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work\\media\\clip_18.wav",
+          "start": 74533333,
+          "duration": 10466666,
+          "source_start": 0,
+          "source_duration": 10466666,
+          "volume": 1,
+          "fade": {
+            "in": "0.004s",
+            "out": "0.006s"
+          }
+        }
+      ]
+    }
+  ]
+}

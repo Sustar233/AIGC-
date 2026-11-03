@@ -1,4 +1,5 @@
-﻿[CmdletBinding()]
+#requires -Version 7.0
+[CmdletBinding()]
 param(
     [Parameter(Mandatory = $true)]
     [string]$Destination,
@@ -43,7 +44,11 @@ foreach ($item in $copyItems) {
 
 Copy-Item -LiteralPath (Join-Path $sourceRoot "AGENTS.md") -Destination $targetRoot
 Copy-Item -LiteralPath (Join-Path $sourceRoot ".gitignore") -Destination $targetRoot
-Copy-Item -LiteralPath (Join-Path $sourceRoot "project.json") -Destination $targetRoot
+# 新项目从独立空白配置建立，绝不复制正在制作中的项目配置。
+Copy-Item -LiteralPath (Join-Path $sourceRoot "templates\project.json") -Destination $targetRoot
+if (Test-Path -LiteralPath (Join-Path $sourceRoot "README.md")) {
+    Copy-Item -LiteralPath (Join-Path $sourceRoot "README.md") -Destination $targetRoot
+}
 
 $projectData = Join-Path $targetRoot "项目资料"
 $database = Join-Path $projectData "database"
@@ -52,8 +57,9 @@ $characterOutput = Join-Path $projectData "outputs\人设"
 $storyboardOutput = Join-Path $projectData "outputs\分镜"
 $memory = Join-Path $targetRoot "memory"
 $cache = Join-Path $memory "storyboard-cache"
+$styleReferences = Join-Path $projectData "参考图\画风"
 
-@($database, $scriptFolder, $characterOutput, $storyboardOutput, $memory, $cache) | ForEach-Object {
+@($database, $scriptFolder, $characterOutput, $storyboardOutput, $memory, $cache, $styleReferences) | ForEach-Object {
     New-Item -ItemType Directory -Force -Path $_ | Out-Null
 }
 
@@ -71,7 +77,11 @@ $config.project_name = $ProjectName
 $config.project_type = $ProjectType
 $config.default_visual_style = $VisualStyle
 $config.initialized = $true
-$config | ConvertTo-Json -Depth 10 | Set-Content -Encoding UTF8 -LiteralPath $configPath
+if (-not [string]::IsNullOrWhiteSpace($VisualStyle)) {
+    $config.workflow.visual_prompt_output.scene_style_suffix = "统一场景画风：$VisualStyle"
+    $config.pending_confirmation = @($config.pending_confirmation | Where-Object { $_ -ne "默认视觉风格" })
+}
+$config | ConvertTo-Json -Depth 30 | Set-Content -Encoding UTF8 -LiteralPath $configPath
 
 $episodeIndexPath = Join-Path $database "分集剧情.json"
 $episodeIndex = Get-Content -Raw -Encoding UTF8 -LiteralPath $episodeIndexPath | ConvertFrom-Json

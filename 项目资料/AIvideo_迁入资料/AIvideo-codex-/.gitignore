@@ -1,0 +1,14 @@
+# Codex project
+.codex/
+__pycache__/
+**/.backups/
+*.pyc
+node_modules/
+.DS_Store
+*.log
+Thumbs.db
+venv/
+.venv/
+*.egg-info/
+dist/
+build/

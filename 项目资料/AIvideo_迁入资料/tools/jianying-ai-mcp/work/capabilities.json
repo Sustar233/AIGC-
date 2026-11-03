@@ -1,0 +1,108 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"capabilities\": {\n    \"verified\": [\n      \"create_draft\",\n      \"multi_track\",\n      \"local_video_audio_image\",\n      \"trim_and_speed\",\n      \"audio_volume_and_fade\",\n      \"srt_import\",\n      \"text_style_border20_background_shadow\",\n      \"transition\",\n      \"video_filter_and_effect\",\n      \"independent_filter_effect_tracks\",\n      \"chroma_key_rgba\",\n      \"mix_mode_and_overlay\",\n      \"video_text_sticker_keyframes\",\n      \"image_overlay_and_sticker\",\n      \"font_bubble_flower_text\",\n      \"text_video_animation\",\n      \"audio_scene_tone_speech_to_song\",\n      \"read_plaintext_reference_draft\",\n      \"copy_replace_and_batch_plaintext_template\",\n      \"local_video_metadata_and_representative_frames\",\n      \"sidecar_srt_vtt_transcript\",\n      \"cached_video_observation_report\",\n      \"read_encrypted_reference_draft\",\n      \"copy_replace_and_batch_encrypted_template\"\n    ],\n    \"partial_or_disabled\": {\n      \"mask\": \"pyJianYingDraft 0.3.0 可写结构，但剪映 10.0.5 未显示；首版禁用\",\n      \"blur_background\": \"结构可写但实测未显示；首版禁用\",\n      \"audio_volume_keyframes\": \"结构可写但界面未观察到；首版禁用\",\n      \"encrypted_reference_draft\": \"需要本地 jy-draftc 兼容读取器和剪映 videoeditor.dll；仅处理临时副本\",\n      \"video_semantic_understanding\": \"已提供代表帧与字幕上下文；准确度取决于所用多模态模型和采样密度\",\n      \"automatic_caption_or_transcript\": \"支持旁挂 SRT/VTT 和可选 Groq/OpenAI Whisper 语句级转写；尚非逐字强制对齐\"\n    },\n    \"not_in_v1\": {\n      \"jianying_builtin_music_and_sfx\": \"需要剪映 UI/账号/在线资源自动化\",\n      \"jianying_tts\": \"需要剪映 UI 与云端服务\",\n      \"beat_detection_and_auto_cut\": \"需要剪映 UI 或独立音频分析器\",\n      \"automatic_export\": \"剪映 7+ 隐藏控件，现有开源控制器不稳定\"\n    },\n    \"tested_versions\": {\n      \"jianying\": \"10.0.5.13816\",\n      \"pyJianYingDraft\": \"0.3.0\"\n    },\n    \"encrypted_draft_reader\": {\n      \"available\": true,\n      \"mode\": \"read_copy_only\",\n      \"helper\": \"C:\\\\Users\\\\浮白文化\\\\Documents\\\\ChatGPT\\\\AIvideo\\\\tools\\\\jianying-ai-mcp\\\\native\\\\jy-draftc.exe\",\n      \"jianying_dll\": \"C:\\\\Users\\\\浮白文化\\\\AppData\\\\Local\\\\JianyingPro\\\\Apps\\\\11.5.0.14471\\\\videoeditor.dll\",\n      \"source_is_never_modified\": true,\n      \"plaintext_is_temporary\": true,\n      \"reasons\": []\n    }\n  },\n  \"compatibility\": {\n    \"detected\": \"11.5.0.14471\",\n    \"tested\": \"10.0.5.13816\",\n    \"matches_tested_version\": false,\n    \"message\": \"当前剪映 11.5.0.14471 与已验证版本 10.0.5.13816 不一致；动画、在线资源、滤镜和草稿格式可能失效或显示不同，生成后必须抽样确认。\"\n  },\n  \"paths\": {\n    \"draft_root\": \"F:\\\\JianyingPro Drafts\",\n    \"work_root\": \"C:\\\\Users\\\\浮白文化\\\\Documents\\\\ChatGPT\\\\AIvideo\\\\tools\\\\jianying-ai-mcp\\\\work\",\n    \"jianying_exe\": \"C:\\\\Users\\\\浮白文化\\\\AppData\\\\Local\\\\JianyingPro\\\\Apps\\\\11.5.0.14471\\\\JianyingPro.exe\"\n  },\n  \"video_observer\": {\n    \"available\": false,\n    \"ffmpeg\": null,\n    \"ffprobe\": null,\n    \"yt_dlp\": null,\n    \"url_input\": false,\n    \"transcription\": {\n      \"sidecar_subtitles\": true,\n      \"groq_whisper\": false,\n      \"openai_whisper\": false\n    },\n    \"setup_hint\": \"设置 JIANYING_FFMPEG/JIANYING_FFPROBE；URL 输入另设置 JIANYING_YT_DLP。\"\n  },\n  \"encrypted_draft_reader\": {\n    \"available\": true,\n    \"mode\": \"read_copy_only\",\n    \"helper\": \"C:\\\\Users\\\\浮白文化\\\\Documents\\\\ChatGPT\\\\AIvideo\\\\tools\\\\jianying-ai-mcp\\\\native\\\\jy-draftc.exe\",\n    \"jianying_dll\": \"C:\\\\Users\\\\浮白文化\\\\AppData\\\\Local\\\\JianyingPro\\\\Apps\\\\11.5.0.14471\\\\videoeditor.dll\",\n    \"source_is_never_modified\": true,\n    \"plaintext_is_temporary\": true,\n    \"reasons\": []\n  },\n  \"recommended_modes\": [\n    \"creative\",\n    \"strict\",\n    \"reference\"\n  ]\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "capabilities": {
+      "verified": [
+        "create_draft",
+        "multi_track",
+        "local_video_audio_image",
+        "trim_and_speed",
+        "audio_volume_and_fade",
+        "srt_import",
+        "text_style_border20_background_shadow",
+        "transition",
+        "video_filter_and_effect",
+        "independent_filter_effect_tracks",
+        "chroma_key_rgba",
+        "mix_mode_and_overlay",
+        "video_text_sticker_keyframes",
+        "image_overlay_and_sticker",
+        "font_bubble_flower_text",
+        "text_video_animation",
+        "audio_scene_tone_speech_to_song",
+        "read_plaintext_reference_draft",
+        "copy_replace_and_batch_plaintext_template",
+        "local_video_metadata_and_representative_frames",
+        "sidecar_srt_vtt_transcript",
+        "cached_video_observation_report",
+        "read_encrypted_reference_draft",
+        "copy_replace_and_batch_encrypted_template"
+      ],
+      "partial_or_disabled": {
+        "mask": "pyJianYingDraft 0.3.0 可写结构，但剪映 10.0.5 未显示；首版禁用",
+        "blur_background": "结构可写但实测未显示；首版禁用",
+        "audio_volume_keyframes": "结构可写但界面未观察到；首版禁用",
+        "encrypted_reference_draft": "需要本地 jy-draftc 兼容读取器和剪映 videoeditor.dll；仅处理临时副本",
+        "video_semantic_understanding": "已提供代表帧与字幕上下文；准确度取决于所用多模态模型和采样密度",
+        "automatic_caption_or_transcript": "支持旁挂 SRT/VTT 和可选 Groq/OpenAI Whisper 语句级转写；尚非逐字强制对齐"
+      },
+      "not_in_v1": {
+        "jianying_builtin_music_and_sfx": "需要剪映 UI/账号/在线资源自动化",
+        "jianying_tts": "需要剪映 UI 与云端服务",
+        "beat_detection_and_auto_cut": "需要剪映 UI 或独立音频分析器",
+        "automatic_export": "剪映 7+ 隐藏控件，现有开源控制器不稳定"
+      },
+      "tested_versions": {
+        "jianying": "10.0.5.13816",
+        "pyJianYingDraft": "0.3.0"
+      },
+      "encrypted_draft_reader": {
+        "available": true,
+        "mode": "read_copy_only",
+        "helper": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\native\\jy-draftc.exe",
+        "jianying_dll": "C:\\Users\\浮白文化\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\videoeditor.dll",
+        "source_is_never_modified": true,
+        "plaintext_is_temporary": true,
+        "reasons": []
+      }
+    },
+    "compatibility": {
+      "detected": "11.5.0.14471",
+      "tested": "10.0.5.13816",
+      "matches_tested_version": false,
+      "message": "当前剪映 11.5.0.14471 与已验证版本 10.0.5.13816 不一致；动画、在线资源、滤镜和草稿格式可能失效或显示不同，生成后必须抽样确认。"
+    },
+    "paths": {
+      "draft_root": "F:\\JianyingPro Drafts",
+      "work_root": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\work",
+      "jianying_exe": "C:\\Users\\浮白文化\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\JianyingPro.exe"
+    },
+    "video_observer": {
+      "available": false,
+      "ffmpeg": null,
+      "ffprobe": null,
+      "yt_dlp": null,
+      "url_input": false,
+      "transcription": {
+        "sidecar_subtitles": true,
+        "groq_whisper": false,
+        "openai_whisper": false
+      },
+      "setup_hint": "设置 JIANYING_FFMPEG/JIANYING_FFPROBE；URL 输入另设置 JIANYING_YT_DLP。"
+    },
+    "encrypted_draft_reader": {
+      "available": true,
+      "mode": "read_copy_only",
+      "helper": "C:\\Users\\浮白文化\\Documents\\ChatGPT\\AIvideo\\tools\\jianying-ai-mcp\\native\\jy-draftc.exe",
+      "jianying_dll": "C:\\Users\\浮白文化\\AppData\\Local\\JianyingPro\\Apps\\11.5.0.14471\\videoeditor.dll",
+      "source_is_never_modified": true,
+      "plaintext_is_temporary": true,
+      "reasons": []
+    },
+    "recommended_modes": [
+      "creative",
+      "strict",
+      "reference"
+    ]
+  },
+  "isError": false
+}
